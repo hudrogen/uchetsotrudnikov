@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UchetSotrudnikov</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+	
+    <string name="no_employee">Нет сотрудников в системе</string>
+    <string name="menu_insert">Добавить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="app_info">Кратко</string>
+    <string name="app_description">Информация о сотруднике</string>
+    <string name="app_confirm">Ок</string>
+
+    <color name="listcolor">#CCCCFF</color>
+    <color name="black">#000000</color>
+
+</resources>

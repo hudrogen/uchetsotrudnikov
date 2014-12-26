@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/listcolor" >
+    
+    <TextView
+        android:id="@+id/textView2about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1about"
+        android:layout_below="@+id/textView1about"
+        android:layout_marginTop="38dp"
+        android:hint="Информация о сотруднике" />
+
+    <TextView
+        android:id="@+id/textView1about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="41dp"
+        android:hint="ФИО"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@+id/textView1about"
+        android:src="@drawable/ic_user" />
+
+</RelativeLayout>

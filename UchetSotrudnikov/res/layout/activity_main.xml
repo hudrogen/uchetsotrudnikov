@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <fragment
+        android:id="@+id/fragment_listofemployees"
+        android:name="com.example.uchetsotrudnikov.fragments.FragmentListOfEmployees"
+        android:layout_width="255dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.03"
+        tools:layout="@layout/fragment_listofemployees" />
+
+    <fragment
+        android:id="@+id/fragment_about"
+        android:name="com.example.uchetsotrudnikov.fragments.FragmentAboutEmployee"
+        android:layout_width="168dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        tools:layout="@layout/fragment_about" />
+
+</LinearLayout>

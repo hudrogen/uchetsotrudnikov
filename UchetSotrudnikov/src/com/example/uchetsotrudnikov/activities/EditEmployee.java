@@ -62,6 +62,7 @@ public class EditEmployee extends FragmentActivity{
 		 + name2 + " " + info2 + "\n " 
 		 + name3 + " " + info3);
 		 //edTxt.setText(name2 + " " + info2 + "\n ");
+		 //comm
 		 
 		 
 		 
